@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.munira.sqlitapp.MainActivity"
+    android:orientation="vertical"
+    android:paddingTop="40dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2name"
+                android:layout_width="90sp"
+                android:layout_height="match_parent"
+                android:text="Name:"
+                android:background="@color/royalcolor"
+                android:textColor="@color/colorText"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:gravity="center" />
+
+
+
+            <EditText
+                android:id="@+id/nameET"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:background="@color/colorEdit"
+                android:hint="Name" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/textView3surmane"
+                android:layout_width="90sp"
+                android:layout_height="match_parent"
+                android:text="Surmane:"
+                android:background="@color/royalcolor"
+                android:textColor="@color/colorText"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:gravity="center"/>
+
+            <EditText
+                android:id="@+id/surmaneET"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:background="@color/colorEdit"
+                android:hint="Surname" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/textView4marks"
+                android:layout_width="90sp"
+                android:layout_height="match_parent"
+                android:text="Marks:"
+                android:background="@color/royalcolor"
+                android:textColor="@color/colorText"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:gravity="center"/>
+
+            <EditText
+                android:id="@+id/marksET"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:background="@color/colorEdit"
+                android:hint="Marks" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/textViewUpdate"
+                android:layout_width="90sp"
+                android:layout_height="match_parent"
+                android:text="Id:"
+                android:background="@color/royalcolor"
+                android:textColor="@color/colorText"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:gravity="center"/>
+
+            <EditText
+                android:id="@+id/updateIdET"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:background="@color/colorEdit"
+                android:hint="Update ID Input here" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="40dp"
+        android:gravity="center">
+        <Button
+            android:id="@+id/buttonAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Add Data"
+            android:textStyle="bold"
+            android:background="@color/colorButtonAdd"
+            android:textColor="@color/colorButtonText"/>
+
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Delete "
+            android:background="@color/colorButtonDelete"
+            android:textColor="@color/colorButtonText"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/buttonview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="View All"
+            android:background="@color/colorButtonView"
+            android:textColor="@color/colorButtonText"/>
+
+        <Button
+            android:id="@+id/buttonUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Update"
+            android:background="@color/colorButtonUpdate"
+            android:textColor="@color/colorButtonText"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+

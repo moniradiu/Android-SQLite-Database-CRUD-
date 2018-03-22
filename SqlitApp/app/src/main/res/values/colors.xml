@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="royalcolor">#1425e4</color>
+    <color name="colorText">#f7f7f9</color>
+    <color name="colorEdit">#bcbcce</color>
+
+    <color name="colorButtonAdd">#83cf58</color>
+    <color name="colorButtonDelete">#ef3009</color>
+    <color name="colorButtonUpdate">#454583</color>
+    <color name="colorButtonView">#841665</color>
+    <color name="colorButtonText">#fafafa</color>
+
+</resources>
