@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.munira.sqlitapp.MainActivity"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/nameET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Name"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textView3surmane"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Surmane" />
+
+        <EditText
+            android:id="@+id/surmaneET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Surname" />
+
+        <TextView
+            android:id="@+id/textView4marks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Marks" />
+
+        <EditText
+            android:id="@+id/marksET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Marks"/>
+        <EditText
+            android:id="@+id/updateIdET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Update"/>
+
+        <Button
+            android:id="@+id/buttonAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Data" />
+
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Data" />
+
+        <Button
+            android:id="@+id/buttonview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View All" />
+
+        <Button
+            android:id="@+id/buttonUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update" />
+    </LinearLayout>
+</LinearLayout>
